@@ -14,7 +14,7 @@ function NavBar() {
                 <div className='dropdown-content'>
                     <Link to="/" className='dropdownItem'>Become a foster </Link> 
                     <Link to="/" className='dropdownItem'>Sign in </Link>
-                    <Link to="/" className='dropdownItem'>Find fosters </Link>
+                    <Link to="/fosters" className='dropdownItem'>Find fosters </Link>
                     <Link to="/shelters" className='dropdownItem'>Find shelters </Link>
                 </div>
             </span>

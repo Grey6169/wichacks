@@ -1,0 +1,31 @@
+.fosterProfile {
+    width: 80%;
+    margin-left: 10%;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+}
+
+.fosterSearch {
+    margin: 15px;
+}
+
+.search {
+    text-align: center;
+}
+
+label {
+    padding: 10px;
+}
+
+input[type=submit] {
+    margin: 15px;
+    padding: 7px;
+    width: 150px;
+    background-color: #62008F;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+
+input[type=submit]:hover {
+    background-color: #2d0042;
+}

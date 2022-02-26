@@ -1,16 +1,21 @@
 import './findShelters.css';
 import USAMap from "react-usa-map";
 import {states} from '../states';
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 function FindShelters() {
     const [data, setData] = useState(null);
+    const [stateAbbrev, setStateAbbrev] = useState(null);
 
     function mapHandler(event) {
         setData(null);
-        const stateAbbrev = event.target.dataset.name;
+        setStateAbbrev(event.target.dataset.name);
         setData(states.states[stateAbbrev]);
     };
+
+    useEffect(() => {
+        setData(states.states[stateAbbrev])
+    }, [])
 
   return (
     <div className="App">
@@ -19,8 +24,8 @@ function FindShelters() {
 
         <div className='shelters' id='shelterList'>
             {data && 
-                data.map((shelter) => (
-                    <div key={shelter.name}>
+                data.map((shelter, index) => (
+                    <div key={`${shelter} ${index} ${stateAbbrev}`}>
                         {shelter.name} <br/>
                         {shelter.phone} <br/>
                         {shelter.town} <br/>
