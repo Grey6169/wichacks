@@ -1,0 +1,12 @@
+path {
+    pointer-events: all;
+}
+
+path:hover {
+    fill: #62008F;
+    cursor: pointer;
+}
+
+.instr {
+    margin: 5%;
+}
