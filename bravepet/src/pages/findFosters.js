@@ -11,10 +11,10 @@ function FindFosters() {
         event.preventDefault();
         setZip(event.target[0].value);
 
+        const newFoster = fosters[event.target[0].value]
+        setFosterList(newFoster);
         event.target[0].value = "";
-
-        setFosterList(fosters[zip]);
-        console.log(fosterList);
+        console.log(newFoster);
     };
 
   return (

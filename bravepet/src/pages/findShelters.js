@@ -8,14 +8,10 @@ function FindShelters() {
     const [stateAbbrev, setStateAbbrev] = useState(null);
 
     function mapHandler(event) {
-        setData(null);
+        const abbrev = event.target.dataset.name;
         setStateAbbrev(event.target.dataset.name);
-        setData(states.states[stateAbbrev]);
+        setData(states.states[abbrev]);
     };
-
-    useEffect(() => {
-        setData(states.states[stateAbbrev])
-    }, [])
 
   return (
     <div className="App">
