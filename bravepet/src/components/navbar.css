@@ -44,3 +44,35 @@ img {
     border-bottom: 3px solid #62008F;
     color: #62008F;
 }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdownItem{
+    padding: 10px;
+    margin: 0;
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+    display: block;
+}
+
+.dropdownItem:hover {
+    background-color: #EBC1FF;
+}
