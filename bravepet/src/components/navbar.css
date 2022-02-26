@@ -1,0 +1,46 @@
+.navigation {
+    width: 100%;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+img {
+    max-width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.boldPurple {
+    color: #62008F;
+    font-weight: bold;
+}
+
+.name {
+    font-size: 2.5em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-left: 15px;
+    vertical-align: middle;
+}
+
+.linkItem {
+    text-decoration: none;
+    padding: 14px 16px;
+    color: black;
+    display: inline-block;
+    font-size: 1.25em;
+    border-bottom: 3px solid white;
+}
+
+.linkItem:hover {
+    border-bottom: 3px solid #62008F;
+    color: #62008F;
+}
