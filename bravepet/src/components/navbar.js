@@ -20,6 +20,8 @@ function NavBar() {
             </span>
             
             <Link to="/donate" className='linkItem'>Donate</Link>
+
+            <a href="https://www.chewy.com/" className='escape'> Escape</a>
         </span>
         
     </div>

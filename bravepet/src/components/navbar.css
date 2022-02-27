@@ -76,3 +76,13 @@ img {
 .dropdownItem:hover {
     background-color: #EBC1FF;
 }
+
+.escape {
+    padding: 14px 16px;
+    color: red;
+    display: block;
+    font-size: 1.25em;
+    border: 3px solid red;
+    border-radius: 6px;
+    float: right;
+}
