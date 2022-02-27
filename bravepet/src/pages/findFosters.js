@@ -27,7 +27,7 @@ function FindFosters() {
             <input type="submit" value="Search" ></input>
         </form>
 
-        <div> FOSTER LIST
+        <div> 
             {fosterList && 
                 fosterList.map((f) => (
                     <div key={f.name}>

@@ -23,3 +23,27 @@ h1 {
     width: 80%;
     margin-left: 10%;
 }
+
+.smallCharts {
+    padding: 2%;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+.column img {
+    min-width: 250px;
+}
+
+.column .caption {
+    width: 80%;
+    margin-left: 10%;
+}

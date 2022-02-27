@@ -13,7 +13,7 @@ function NavBar() {
                 <Link to="/" className='linkItem'>Foster Information</Link>
                 <div className='dropdown-content'>
                     <Link to="/" className='dropdownItem'>Become a foster </Link> 
-                    <Link to="/" className='dropdownItem'>Sign in </Link>
+                    <Link to="/signin" className='dropdownItem'>Sign in </Link>
                     <Link to="/fosters" className='dropdownItem'>Find fosters </Link>
                     <Link to="/shelters" className='dropdownItem'>Find shelters </Link>
                 </div>
