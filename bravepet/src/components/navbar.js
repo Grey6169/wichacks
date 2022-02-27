@@ -18,6 +18,18 @@ function NavBar() {
                     <Link to="/shelters" className='dropdownItem'>Find shelters </Link>
                 </div>
             </span>
+            
+            <Link to="/donate" className='linkItem'>Donate</Link>
+        </span>
+        
+    </div>
+  );
+}
+
+export default NavBar;
+
+
+/*
 
             <span className='dropdown'>
                 <Link to="/" className='linkItem'>Support</Link>
@@ -28,12 +40,4 @@ function NavBar() {
                     <Link to="/" className='dropdownItem'>National Groups </Link>
                 </div>
             </span>
-            
-            <Link to="/" className='linkItem'>Donate</Link>
-        </span>
-        
-    </div>
-  );
-}
-
-export default NavBar;
+*/
