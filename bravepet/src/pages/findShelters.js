@@ -14,21 +14,33 @@ function FindShelters() {
     };
 
   return (
-    <div className="App">
-        <div className='instr'> Click on a state to view its shelters</div>
-        <USAMap onClick={mapHandler} />
+    <div className="findShelters">
+        <div className='instr'> Click on a state to view its pet-friendly shelters</div>
+        <div className='map'> <USAMap onClick={mapHandler} /></div>
 
         <div className='shelters' id='shelterList'>
-            {data && 
-                data.map((shelter, index) => (
-                    <div key={`${shelter} ${index} ${stateAbbrev}`}>
-                        {shelter.name} <br/>
-                        {shelter.phone} <br/>
-                        {shelter.town} <br/>
-                        <a href={shelter.website}> {shelter.name}'s Website </a> <br/> <br/>
-                    </div>
-                ))
-            }
+            <table className="styled-table">
+                <thead>
+                    <tr>
+                        <th> Name </th>
+                        <th> Phone Number </th>
+                        <th> Town/Area </th>
+                        <th> Website </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {data && 
+                        data.map((shelter, index) => (
+                            <tr key={`${shelter} ${index} ${stateAbbrev}`}>
+                                <td>{shelter.name} </td> 
+                                <td>{shelter.phone}</td> 
+                                <td>{shelter.town}</td> 
+                                <td><a href={shelter.website}> {shelter.name} </a></td>
+                            </tr>
+                        ))
+                    }
+                </tbody>
+            </table>
         </div>
     </div>
   );
