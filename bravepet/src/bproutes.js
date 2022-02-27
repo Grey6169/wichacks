@@ -7,6 +7,7 @@ import FindShelters from './pages/findShelters';
 import FindFosters from './pages/findFosters';
 
 import SignIn from './pages/signin';
+import Volunteer from './pages/volunteer';
 
 
 class BPRoutes extends React.Component {
@@ -20,6 +21,7 @@ class BPRoutes extends React.Component {
                 <Route path="/fosters" element={<FindFosters />} />
 
                 <Route path="/signin" element={<SignIn />} />
+                <Route path="/volunteer" element={<Volunteer />} />
             </Routes>
         );
     }
