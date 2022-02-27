@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/wichacks/static/css/main.b76ed31a.css",
+    "main.js": "/wichacks/static/js/main.9d24c967.js",
+    "static/js/787.bb335dae.chunk.js": "/wichacks/static/js/787.bb335dae.chunk.js",
+    "static/media/qrcode.jpg": "/wichacks/static/media/qrcode.735c696a4e6d36293a98.jpg",
+    "static/media/71perc.png": "/wichacks/static/media/71perc.681dfd71e81ec8740d67.png",
+    "static/media/50perc.png": "/wichacks/static/media/50perc.0002dea553e4018ed49d.png",
+    "static/media/25perc.png": "/wichacks/static/media/25perc.82a8800e405c72e304e2.png",
+    "static/media/logo.png": "/wichacks/static/media/logo.37068355c811f8c928a3.png",
+    "static/media/bitcoinlogo.png": "/wichacks/static/media/bitcoinlogo.e5d84ddac06aa7d93845.png",
+    "static/media/logo.svg": "/wichacks/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/wichacks/index.html",
+    "main.b76ed31a.css.map": "/wichacks/static/css/main.b76ed31a.css.map",
+    "main.9d24c967.js.map": "/wichacks/static/js/main.9d24c967.js.map",
+    "787.bb335dae.chunk.js.map": "/wichacks/static/js/787.bb335dae.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b76ed31a.css",
+    "static/js/main.9d24c967.js"
+  ]
+}
