@@ -10,3 +10,11 @@ path:hover {
 .instr {
     margin: 5%;
 }
+
+.msg {
+    float: right;
+}
+
+.msg:hover {
+    cursor: pointer;
+}
