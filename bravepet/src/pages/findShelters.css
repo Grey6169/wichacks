@@ -32,6 +32,7 @@ path:hover {
     font-family: sans-serif;
     min-width: 400px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    text-align: left;
 }
 
 .styled-table thead tr {
@@ -40,7 +41,7 @@ path:hover {
     text-align: left;
 }
 
-.map {
+.findShelters {
     width: 100%;
     text-align: center;
 }
