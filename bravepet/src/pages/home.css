@@ -76,3 +76,18 @@ h1 {
 .signin button:hover {
     opacity: 0.8;
 }
+
+.banner {
+    width: 100%;
+    padding: 2% 10%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 5px solid #f00;
+}
+
+.redbold {
+    font-size: 1.25em;
+    font-weight: bold;
+    color: red;
+}

@@ -10,9 +10,16 @@ function Home() {
         Welcome to BravePet!
       </h1>
 
+      <div className="banner">
+        <span className="redbold"> WARNING: </span> Internet usage can always be monitored, 
+        if you feel 
+        unsafe, please exit this immediately. We do our best to keep things 
+        subtle, but anything can be traced. Please reach out to 911 if at 
+        any point you are in danger. <br/>
+        You will see a bright red escape at the top right of every page, you can click
+        that or your escape key on your keyboard for an immediate exit to Chewy.com. 
+      </div>
       <div className='information'>
-
-        
         <div className='text'>
           BravePet exists for a few reasons, to help protect and support 
           our vulnerable community, raise awareness,
